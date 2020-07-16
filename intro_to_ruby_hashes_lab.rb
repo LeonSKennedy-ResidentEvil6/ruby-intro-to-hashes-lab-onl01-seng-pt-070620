@@ -16,8 +16,11 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-
+    monopoly = {:railroads => {}}
 end
+
+
+        expect(monopoly_with_second_tier[:railroads][:names]).to eq({})
 
 def monopoly_with_fourth_tier
 	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
